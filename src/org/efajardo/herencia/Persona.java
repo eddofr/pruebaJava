@@ -7,6 +7,21 @@ public class Persona {
     private int edad;
     private String email;
 
+    public Persona() {
+    }
+
+    public Persona(String nombre, String apellidos){
+        this.nombre = nombre;
+        this.apellidos = apellidos;
+    }
+
+    public Persona(String nombre, String apellidos, int edad, String email) {
+        this.nombre = nombre;
+        this.apellidos = apellidos;
+        this.edad = edad;
+        this.email = email;
+    }
+
     public String getNombre() {
         return nombre;
     }
